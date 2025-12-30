@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "build": "bundle exec jekyll build -d dist",
-    "build:js": "concurrently npm:build:*",
     "vercel-build": "bundle install && npm run build:js && bundle exec jekyll build -d dist"
   },
   "dependencies": {},
