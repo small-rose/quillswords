@@ -1,7 +1,5 @@
 {
-  "scripts": {
-    "build": "bundle install && bundle exec jekyll build -output _site"
-  },
+
   "builds": [
     {
       "src": "package.json",
