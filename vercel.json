@@ -11,7 +11,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/_site/$1"
+      "dest": "/dist/$1"
     }
   ],
   "env": {
