@@ -7,5 +7,16 @@
   ],
   "buildCommand": "bundle install && bundle exec jekyll build",
   "outputDirectory": "_site",
-  "installCommand": "gem install bundler && bundle install"
+  "installCommand": "gem install bundler && bundle install",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/_site/$1"
+    }
+  ],
+  "env": {
+    "RUBY_VERSION": "3.1.2",
+    "JEKYLL_ENV": "production"
+  },
+  "framework": "jekyll"
 }
