@@ -1,3 +1,5 @@
+destination: ./_site
+
 # 站点基础配置
 title: "quillswords111"
 description: "个人写作库"
