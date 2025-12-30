@@ -1,22 +1,24 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build"
     }
   ],
-  "buildCommand": "bundle install && bundle exec jekyll build",
-  "outputDirectory": "_site",
-  "installCommand": "gem install bundler && bundle install",
+  "buildCommand": "gem install bundler -v '~> 2.0' && bundle install && bundle exec jekyll build --destination dist",
+  "outputDirectory": "dist",
+  "installCommand": "gem install bundler -v '~> 2.0' && bundle config set path vendor/bundle && bundle install --jobs=4 --retry=3",
+  "functions": {},
+  "env": {
+    "RUBY_VERSION": "3.2.0",
+    "JEKYLL_ENV": "production",
+    "BUNDLE_WITHOUT": "development:test"
+  },
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/dist/$1"
     }
-  ],
-  "env": {
-    "RUBY_VERSION": "3.1.2",
-    "JEKYLL_ENV": "production"
-  },
-  "framework": "jekyll"
+  ]
 }
