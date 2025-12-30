@@ -12,7 +12,7 @@
       "dest": "/_site/$1"
     }
   ],
-  "buildCommand": "bundle install && bundle exec jekyll build --output _site",
-  "outputDirectory": "/_site",
+  "buildCommand": "bundle install && bundle exec jekyll build ",
+  "outputDirectory": "_site",
   "installCommand": "gem install bundler && bundle install"
 }
