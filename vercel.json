@@ -8,10 +8,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/$1"
+      "dest": "/_site/$1"
     }
   ],
-  "buildCommand": "bundle install && bundle exec jekyll build -d dist",
+  "buildCommand": "bundle install && bundle exec jekyll build -d _site",
   "outputDirectory": "dist",
   "installCommand": "gem install bundler && bundle install"
 }
