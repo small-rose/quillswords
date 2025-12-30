@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "buildCommand": "bundle install && bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "installCommand": "gem install bundler && bundle install"
+}
