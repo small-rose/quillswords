@@ -2,7 +2,10 @@
 remote_theme: small-rose/just-the-docs@just-the-docsy
 repository: small-rose/quillswords
 
-title: NoteDocs
+baseurl: ""
+url: "https://quills.zhangxiaocai.cn"
+
+title: 文字写作站
 
 
 # Back to top link
