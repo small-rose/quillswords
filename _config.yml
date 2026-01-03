@@ -1,72 +1,52 @@
-destination: ./_site
+# remote_theme: small-rose/just-the-docs@v0.10.0
+remote_theme: small-rose/just-the-docs@just-the-docsy
 
-# 站点基础配置
-title: "quillswords111"
-description: "个人写作库"
-baseurl: ""
-url: "" # 留空，Vercel 会自动注入
+title: NoteDocs
 
-# 作者信息
-author:
-  name: "small-rose"
-  email: "small-rose@qq.com"
 
-# 构建设置
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-timezone: Asia/Shanghai
-lang: zh-CN
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
 
-# Vercel 兼容的主题配置
-# 使用 remote_theme
-remote_theme: cotes2020/jekyll-theme-chirpy@master
+footer_content: "Copyright &copy; 2022 Small-Rose. <a href=\"https://www.netlify.com/\">This site is powered by Small Rose.</a>"
 
-# Vercel 支持的插件列表
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/small-rose/NoteBook" # the github URL for your repo
+gh_edit_branch: "gh-pages" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
+# Aux links for the upper right navigation
+aux_links:
+  "NoteBook on GitHub":
+    - "//github.com/small-rose/NoteBook"
+    -
+
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-archives
-  - jekyll-include-cache
+  - jemoji
 
-# 分页配置
-paginate: 5
-paginate_path: "/page/:num/"
 
-# Chirpy 主题特定配置
-theme_mode: auto
-social:
-  name: "small-rose"
-  email: "small-rose@qq.com"
-  github: "small-rose"
-
-# 排除文件
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "node_modules/"
-  - "vendor/"
-  - "README.md"
-  - "LICENSE"
-  - ".gitignore"
-
-# 包含文件
-include:
-  - "_pages"
-  - ".well-known"
-
-# 搜索配置
-search:
-  provider: "jekyll"
-
-# SEO 配置
-seo:
-  title: true
-  title_separator: "|"
-  description: true
-  author: true
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: Tips
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
