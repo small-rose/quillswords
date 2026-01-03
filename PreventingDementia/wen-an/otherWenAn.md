@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 其他文案
-parent: Wen An
+parent: 文案
 has_children: false
 nav_order: 20250806
 ---
