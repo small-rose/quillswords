@@ -54,3 +54,8 @@ callouts:
   warning:
     title: Warning
     color: red
+
+# _config.yml
+just_the_docs:
+  # 其他配置...
+  custom_css: ["assets/css/custom.css"]
