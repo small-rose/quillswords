@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # Jekyll 核心
-gem "jekyll", "~> 4.3"
+#gem "jekyll", "~> 4.3"
 
 # GitHub Pages 官方依赖（包含所有插件和兼容版本）
 gem "github-pages", "~> 232", group: :jekyll_plugins
