@@ -1,6 +1,6 @@
 ---
 layout: default
-title: WuXia
+title: 武侠
 has_children: true
 nav_order: 100
 ---
