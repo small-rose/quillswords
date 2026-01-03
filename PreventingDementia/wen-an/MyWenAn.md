@@ -6,20 +6,21 @@ has_children: false
 nav_order: 20250806
 ---
 
-## Table of contents
+## 个人原创
 {: .no_toc .text-delta }
 
+
+<div class="my-right-toc" markdown="1">
 1. TOC
 {:toc}
-
-## 个人原创
--------------------------
+</div>
 
 
-### 古风文案
+
+## 古风文案
 
 
-**缘起**
+## 缘起
 <br/>
 
 古传，某修行者游历。
@@ -50,7 +51,8 @@ nav_order: 20250806
 
 <br/>
 
-**淫奔**
+## 淫奔
+
 <br/>
 
 余少时远游。途径一镇，其名曰滇梦。
@@ -79,7 +81,7 @@ nav_order: 20250806
 <br/>
 
 
-**枕妖**
+## 枕妖
 <br/>
 
 余少时多梦。
