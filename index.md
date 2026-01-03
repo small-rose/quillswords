@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: 首页
 nav_order: 1
-description: " Note Docs,NoteBook"
+description: " 首页,个人写作站,写作教程,写作素材"
 permalink: /
 ---
 
