@@ -1,5 +1,5 @@
 # remote_theme: small-rose/just-the-docs@v0.10.0
-remote_theme: small-rose/just-the-docs@just-the-docsy
+remote_theme: small-rose/just-the-docs@just-the-quills
 repository: small-rose/quillswords
 
 baseurl: ""
@@ -54,8 +54,3 @@ callouts:
   warning:
     title: Warning
     color: red
-
-# _config.yml
-just_the_docs:
-  # 其他配置...
-  custom_css: ["assets/css/custom.css"]
