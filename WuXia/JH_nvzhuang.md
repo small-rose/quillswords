@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 女子装束
-parent: WuXia
+parent: 武侠
 nav_order: 104
 ---
 

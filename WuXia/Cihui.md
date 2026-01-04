@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 描写
-parent: WuXia
+parent: 武侠
 nav_order: 102
 ---
 
