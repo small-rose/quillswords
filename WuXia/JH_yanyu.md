@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 武术谚语
-parent: WuXia
+parent: 武侠
 nav_order: 104
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 奇门阵法
-parent: WuXia
+parent: 武侠
 nav_order: 104
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 打斗
-parent: WuXia
+parent: 武侠
 nav_order: 103
 ---
 

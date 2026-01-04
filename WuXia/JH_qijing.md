@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 奇景幽境
-parent: WuXia
+parent: 武侠
 nav_order: 104
 ---
 

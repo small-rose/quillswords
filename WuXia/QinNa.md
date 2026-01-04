@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 擒拿
-parent: WuXia
+parent: 武侠
 nav_order: 105
 ---
 
