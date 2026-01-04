@@ -54,5 +54,8 @@ callouts:
     title: Note
     color: purple
   warning:
+    title: warnning
+    color: red
+  bronze:
     title: 题记
-    color: '#8B5C2E'
+    color: bronze
