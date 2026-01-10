@@ -2,7 +2,7 @@
 layout: default
 title: 首页
 nav_order: 1
-description: " 首页,个人写作站,写作教程,写作素材"
+description: "张小菜,small-rose,博客,个人博客,写作素材,个人写作,写作教程,免费素材,小说,原创,个人原创,原创小说"
 permalink: /
 ---
 
